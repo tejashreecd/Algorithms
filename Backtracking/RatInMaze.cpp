@@ -3,7 +3,7 @@ using namespace std;
 
 int mat[100][100],sol[100][100];
 
-
+//checking if safe to move
 int isSafe(int i,int j,int n) {
 	return (i < n && j < n && mat[i][j]==1); 
 }
