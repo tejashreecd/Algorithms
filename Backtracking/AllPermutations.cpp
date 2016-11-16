@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//permutation
 void permute(string & str,int l, int r) {
 	if(l == r) {
 		cout << str << "\n";
