@@ -7,7 +7,7 @@ int mat[100][100],sol[100][100];
 int isSafe(int i,int j,int n) {
 	return (i < n && j < n && mat[i][j]==1); 
 }
-
+//printing the matrix
 void print(int n) {
 	for(int i=0;i<n;i++)
 	{
